@@ -1,0 +1,102 @@
+/* :root{
+    
+} */
+
+
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    background-color: grey;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.slider{
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.sliderthumb{
+    width: 253px;
+    height: 600px;
+    position: relative;
+    
+
+}
+
+button {
+    background-color: transparent;
+    color: grey;
+    border: none;
+    position:absolute;
+    right: 45%;
+    z-index: 1000;
+    
+    
+}
+
+button.down{
+
+    bottom:0;
+
+    
+}
+
+button.up{
+    top: 0;
+    
+    
+
+}
+
+.active{
+    display: block;
+}
+
+.thumbox{
+    width: 100%;
+    height: calc(100% / 5);
+}
+
+
+
+
+.thumbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.light-border{
+    border: 2px solid white;
+}
